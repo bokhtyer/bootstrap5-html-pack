@@ -103,20 +103,26 @@
 	// });
 
 
-	// $(window).on("load",function(){
-				
-	// 	/* Page Scroll to id fn call */
-	// 	$(".menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id();
 
-
-	// 	// demo functions 
-	// 	$("a[rel='next']").click(function(e){
-	// 		e.preventDefault();
-	// 		var to=$(this).parent().parent("section").next().attr("id");
-	// 		$.mPageScroll2id("scrollTo",to);
+	
+	
+	// $('#nav').onePageNav({
+	// 		currentClass: 'current',
+	// 		changeHash: false,
+	// 		scrollSpeed: 750,
+	// 		scrollThreshold: 0.5,
+	// 		filter: '',
+	// 		easing: 'swing',
+	// 		begin: function() {
+	// 			//I get fired when the animation is starting
+	// 		},
+	// 		end: function() {
+	// 			//I get fired when the animation is ending
+	// 		},
+	// 		scrollChange: function($currentListItem) {
+	// 			//I get fired when you enter a section and I pass the list item of the section
+	// 		}
 	// 	});
-		
-	// });
 
 
 
